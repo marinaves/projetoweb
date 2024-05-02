@@ -1,0 +1,128 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background: color #905252;
+    color: #fff;
+}
+
+/* CORES DE FUNDO */
+.bg-cor-1{
+    background-color: #000000;
+}
+
+.bg-cor-2{
+    background-color: #d87c3ffd;
+}
+
+/* CORES PARA TEXTO */
+.cor-1{
+    color:#f77503 ;
+}
+
+.cor-2{
+    color: #f77503;
+}
+
+.cor-clara{
+    color:#f77503;
+}
+
+.cor-escura{
+    color:#101010;
+}
+
+/* Estilos para o link da marca (navbar-rand) */
+
+.navbar-brand{
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+}
+.navbar-brand:hover{
+    color: #aea7a7;
+}
+
+@media(min-width:768px){
+    .navbar-brand {
+        text-align: left;
+    }
+}
+
+/* Ajuste dos ícones da navbar */
+
+#navbar-itens{
+    justify-content: space-between;
+}
+
+@media(min-width:768px){
+    #navbar-itens{
+        min-width: 80%;
+        display: flex;
+    }
+}
+
+#navbar .navbar-nav{
+    flex-direction: row;
+    justify-content: end;
+}
+
+#navbar .navbar-nav li{
+    margin-left: 1em;
+}
+
+#navbar i{
+    font-size: 1.2rem;
+}
+/* Ajuste da largura do from de pesquisa */
+#form-pesquisa{
+    width: 100%;
+    margin: 2em 0;
+}
+
+@media(min-width:768px){
+    #form-pesquisa{
+        width: 50%;
+        margin: 0;
+    }
+}
+
+/* Estilizando o form de pesquisa*/
+#form-pesquisa{
+    border: 2px solid #ffffff;
+    border-radius: 3px;
+    padding: 5px 15px;
+}
+
+#form-pesquisa input{
+    background-color: transparent;
+    border: none;
+    color: #fcf5eb;
+}
+
+#form-pesquisa input:focus{
+    box-shadow: none;
+}
+
+#form-pesquisa{
+    box-shadow: none;
+}
+
+#form-pesquisa input::placeholder{
+    color:#fcf5eb;
+}
+
+/* CSS DA NAVBAR INFERIOR */
+#container-navbar-inferior .container{
+    justify-content: flex-end;
+}
+/*estilizando o texto dos links da navbar inferior*/
+#container-navbar-inferior a{
+    font-weight: 50.0;
+    color: #fff;
+}
+
+.navbar-toggler{
+    font-size:1.5em;
+}
