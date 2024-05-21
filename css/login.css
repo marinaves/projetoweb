@@ -1,0 +1,28 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3985b;
+}
+
+#form-container{
+    background-color: #fff;
+    border-radius: 20px;
+    /* Sombreamento: horizontal, vertical, espalhamento, cor com opacidade */
+    box-shadow: .5px 10px 15px rgba(0,0,0, .2);
+    margin: 25px auto;
+    padding: 25px;
+}
+
+#form-container h2{
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+#form-container form{
+    padding-bottom: 50px;
+}
+
+/*Reestilizando os inuts*/
+
+#form-container .form-control{
+    
+}
